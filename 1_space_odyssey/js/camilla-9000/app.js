@@ -1,4 +1,4 @@
-function initAndroid() {
+const functionToArrowFunction = alienSpace => { console.log(alienSpace);
 
   /*
 ____/\\\\\\\\\_________/\\\\\\\_______/\\\\\\\\\_________/\\\\\\\__________
@@ -113,9 +113,9 @@ if (hasJetPack) {
 } else if (hasJetPack) {
   console.log("JetPack NOT enabled, please enable jetPack before doing a space walk")
 }
+};
 
-
-
+const functionToArrowFunctionTwo = brokenSatellite => { console.log(brokenSatellite);
 /*
  2. BROKEN SATELLITE::::::
     You need to send the droid out on a space walk to fix the satellite, with out it you can't communicate with earth.
@@ -130,6 +130,10 @@ if (hasJetPack) {
  console.log("JetPack NOT enabled, please enable jetPack before doing a space walk");
 
  */
+
+};
+
+const functionToArrowFunctionThree = alienSpaceCraft => { console.log(alienSpaceCraft);
 /*
  3. METEOR SHOWER::::::
     On your way to Jupiter you encounter a massive meteor shower that could damage the ship, you need to redirect the ship to a new safe location.
@@ -157,7 +161,9 @@ for (var i = 0; i <= numberOfResponses; i++) {
     console.log(responses[2] + " " + "\u{1F6F8} Swoosh -> -> Ship is steered to safety!");
   }
 }
+};
 
+const functionToArrowFunctionFour = lunarLanding => { console.log(lunarLanding);
 /*
  4. ALIENS SPACE CRAFT ENCROACHING::::::
     Alien craft approaches its an enemy for sure...you need to shoot it down!!
@@ -195,6 +201,7 @@ if (enemyCraft && photonLaser && photonLaserEnabled === true) {
         ELSE
           console.log("\u{1F9E8} DEAD \u{1F9E8} ");
 */
+
 /*
  5. LUNAR LANDING:::::
     We got word of an extra terrestrial sighting on the moon... we have been tasked to land on the moon
@@ -282,8 +289,9 @@ ELSE
 
 // Level 2 convert it to a switch statement.
 
+};
 
-
+const functionToArrowFunctionFive = planetaryInfoDash => { console.log(planetaryInfoDash);
 /*
  6. PLANETARY INFO-DASH:::::
 
@@ -358,7 +366,9 @@ console.groupEnd();
  Level 2::::::::::::::
  Add 2 New planets of your choosing to the front of the Array : https://nineplanets.org
 */
+};
 
+const functionToArrowFunctionSix = objedtRefactor => { console.log(objedtRefactor);
 /*
  7. Android Object REFACTOR:::::
 
@@ -431,5 +441,26 @@ for(var i = 0; i < androidTwo.length; i++) {
   Look through your code and find more opportunities to use and call functions and parameters aka arguments.
 */
 
-}
+
+
+/*
+    9. REFACTOR Arrow functions
+    Level 1:::::::::
+    Go through your application and convert all your functions into Arrow functions.
+    If you only have one function, please make a few more it is possible to have one function per feature.
+
+    Level 2:::::::::
+    Create a few methods on your droid object that will allow you to update your object properties like isAlive, eyeColors etc.
+  */
+
+};
+
+
+
+
+
+
+
+
+
 
